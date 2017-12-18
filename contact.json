@@ -1,0 +1,22 @@
+{
+    "Email": "foo@gmail.com",
+    "Viber": {
+        "1": "65464564555555 "
+    },
+    "Skype": {
+        "text": "ouraSMILO",
+        "href": "link/to/skype"
+    },
+    "justToTest": {
+        "1": {
+            "text": "test",
+            "href": "ok/tubata/"
+        },
+        "two": "aurika",
+        "three": "bulma",
+        "last": {
+            "text": "houy hihi",
+            "href": "/pyi/pyi"
+        }
+    }
+}
