@@ -79,7 +79,7 @@ class ContactInfo
                 } else { // there is multiple contact for this one type
                     $str_result .= "\t\t<ul>\n";
                     foreach ($value as $num => $infoValue) {
-                        $str_result .= "\t\t\t<li><span>$num</span>: ";
+                        $str_result .= "\t\t\t<li><strong>$num</strong>: ";
                         if (is_string($infoValue)) {
                             $str_result .= "<span>$infoValue</span></li>\n";
                         } else if ($this->isLinkContact($infoValue)) { // is a linkContact
